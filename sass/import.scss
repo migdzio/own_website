@@ -1,0 +1,13 @@
+/* IMPORT FONT FILES */
+@import url("../css/fonts.css");
+
+// Responsive.gs files
+/* IMPORT RESET */
+@import url("../responsive.gs/reset.css");
+/* IMPORT 12 COLUMN RESPONSIVE GS */
+@import url("../responsive.gs/responsive.gs.12col.css");
+
+@import '_init.scss'; // Plik do zapisywania zmiennych używanych w projekcie! (oraz innych predefiniowanych ustawień).
+@import '_header.scss';
+@import '_content.scss';
+@import '_footer.scss';

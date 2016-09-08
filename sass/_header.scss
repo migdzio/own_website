@@ -1,0 +1,17 @@
+header {
+	height: 10vh;
+	background: rgba(242, 230, 232, 0.8);
+    color: #0F0D0D;
+    border-bottom-left-radius: 1.2em;
+    border-bottom-right-radius: 1.2em;
+        ul {
+            list-style-type: none;
+            font-size: 1.5em;
+            li {
+                text-align: left;
+                margin: 0 0 0 2.5%;
+                line-height: 12vh;
+            }
+        }
+}
+
