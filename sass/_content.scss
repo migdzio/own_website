@@ -17,11 +17,14 @@ article {
 }
 
 .info {
-    width: 70%;
-    height: 70%;
+    width: 60vw;
+    height: 60vh;
     min-width: 300px;
-    border: 4px solid #F2E6E8;
+    // border: 4px solid #F2E6E8;
     font-size: 1.8em;
+    display: flex;
+    align-items: center;
+    // justify-content: center;
     // Centrowanie:
     position: absolute;
         top: 0;
@@ -30,21 +33,16 @@ article {
         bottom: 0;
     margin: auto;
     // Pozycja tekstu:
-    text-align: center;
-    span {
+    div:first-child {
+        line-height: 2.1em;
         font-size: 2.1em;
-        position: absolute;
-            top: 35%;
-            left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
+        display: block;
+        margin: auto;
+        width: 100%;
     }
-    p {
-        position: absolute;
-            top: 53%;
-            left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
+    div:last-child {
+        display: block;
+        
     }
 }
 
